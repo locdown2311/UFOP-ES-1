@@ -33,7 +33,7 @@
                             <form action="{{route('deletaturma', ['id'=>$turma['id']])}}" method="post">
                               @csrf
                               <input name="_method" type="hidden" value="DELETE">
-                              <button class="btn btn-danger" disabled type="submit">Deletar</button>
+                              <button class="btn btn-danger" type="submit">Deletar</button>
                             </form>
                           </td>
                         </tr>
