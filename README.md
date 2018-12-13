@@ -34,6 +34,7 @@ Para começar a utilizar :
 ```sh
 $ php artisan migrate:fresh --seed
 ```
+E o sistema irá criar automaticamente as permissões e alguns usuários de teste prontos para realizar o login
 
 
 License
