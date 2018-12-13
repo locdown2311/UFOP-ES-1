@@ -1,0 +1,37 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.bg-ufop {
+    background-color: #962038;
+    color: white;
+}
+
+.balao {
+    position: relative;
+    background: #03b843;
+    border-radius: 0.4em;
+}
+.balao:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 330px;
+    height: 164px;
+    border: 21px solid transparent;
+    border-right-color: #03b843;
+    border-left: 0;
+    margin-top: -21px;
+    margin-left: -21px;
+    word-wrap: break-word;
+}
