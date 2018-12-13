@@ -12,7 +12,7 @@ Quadro de Avisos é um sistema em que usuários e professores podem mandar aviso
   - Alocar aluno em turma (exclusivo para professores)
   - Editar seu perfil
   - Visualizar todos os avisos anteriores por ordem de publicação
-  - Filtrar avisos (pendente)
+  - Filtrar avisos
 
 ### Parte técnica
 
