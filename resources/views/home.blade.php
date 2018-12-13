@@ -138,11 +138,11 @@
             <div class="card">
                 <div class="card-body">
                     <ul class="list-group">
-                            <a class="list-group-item list-group-item-text">Filtragem de cursos</a>
-                            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">EC</a>
-                            <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">EP</a>
-                            <a href="#" class="list-group-item list-group-item-action list-group-item-success">SI</a>
-                            <a href="#" class="list-group-item list-group-item-action list-group-item-danger">EE</a>
+                            <a class="list-group-item list-group-item-text">Filtragem de turmas</a>
+                                @foreach ($cursos as $key => $value)
+                                    <a href="{{route('home.filtro', ['filtro'=>$value->nome])}}" class="list-group-item list-group-item-action list-group-item-primary">{{$value->nome}}</a>
+                                @endforeach
+                                
                     </ul>
                 </div>
             </div>

@@ -23,6 +23,7 @@ Route::group(['middleware' => ['auth']], function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home/{filtro}','HomeController@filtrarMensagens')->name('home.filtro');
 //PERFIL
 Route::get('/perfil','HomeController@perfil')->name('perfil');
 Route::patch('/atualizaP/{id}','HomeController@atualizaPerfil')->name('atualizaP');

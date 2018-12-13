@@ -47,5 +47,13 @@ class HomeController extends Controller
         $user->save();
         return redirect('home')->with('status','Seu perfil foi atualizado com sucesso');
     }
+    public function filtrarMensagens($filtro)
+    {
+        $posts = Post::where('cursos','=',$filtro)->get();
+        $cursos = Turma::all();
+        return view('home')
+            ->with('cursos',$cursos)
+            ->with('posts',$posts);
+    }
     
 }
