@@ -6,7 +6,7 @@
         <div class="col-md-8 offset-md-2">
             <div class="card">
                 <div class="card-header">
-                    Formulário de Alocação de Alunos
+                    Formulário de Desalocação de Alunos
                 </div>
                 <div class="card-body">
                 <form action="" method="POST">
