@@ -79,6 +79,9 @@
             <hr>
             @foreach ($posts as $id =>$value)
             <div class="card mt-2 mb-2">
+                <div class="card-header">
+                    Recado do dia {{date("d/m/Y", strtotime($value->created_at))}}
+                </div>
                 <div class="card-body">
                     <textarea style="resize: none;" class="form-control" readonly cols="10" name="texto">{{$value->texto}}</textarea>
                 </div>
