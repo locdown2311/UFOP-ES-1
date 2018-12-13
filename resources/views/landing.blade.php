@@ -14,7 +14,7 @@
                     </div>
                     <div class="card-body">
                         <div class="mb-3 text-center">
-                                <button class="btn btn-lg btn-outline-success" data-onsuccess="onSignIn">Login com Google</button>
+                                <button class="btn btn-lg btn-success" disabled data-onsuccess="onSignIn">Login com Google (em testes)</button>
                         </div>
                             
                             <form action="{{ route('register') }}" method="POST">

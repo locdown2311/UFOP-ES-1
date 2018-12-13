@@ -14,7 +14,7 @@
             </ol>
         </p>
         <p>Esse site é voltado para uso interno de alunos e professores do ICEA
-            e o mesmo inicialmente está em fase de desenvolvimento.</p>
+            e o mesmo está em fase pré-beta.</p>
         <p class="text-warning">A UFOP não tem qualquer relação com as funções promovidas por esse aplicativo.</p>
                         
     </div>

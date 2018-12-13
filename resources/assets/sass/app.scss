@@ -35,3 +35,6 @@
     margin-left: -21px;
     word-wrap: break-word;
 }
+*:disabled:hover{
+    cursor:not-allowed;
+}

@@ -158,6 +158,8 @@ class TurmasController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $turma = Turma::findOrFail($id);
+        $turma->delete();
+        return redirect('home')->with('status','Turma deletada com sucesso');
     }
 }

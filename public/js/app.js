@@ -47914,7 +47914,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "Esse site é voltado para uso interno de alunos e professores do ICEA\n        e o mesmo inicialmente está em fase de desenvolvimento."
+          "Esse site é voltado para uso interno de alunos e professores do ICEA\n        e o mesmo está em fase pré-beta."
         )
       ]),
       _vm._v(" "),
